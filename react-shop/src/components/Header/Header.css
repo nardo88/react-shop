@@ -1,0 +1,272 @@
+
+.header {
+
+}
+
+.header__wrapper{
+
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.header__support{
+
+}
+
+.header__main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.header__logo{
+
+}
+
+.header__quick{
+
+}
+
+.header__search{
+
+}
+
+.header__form{
+
+}
+
+.header__row{
+    display: flex;
+    align-items: center;
+}
+
+.container {
+}
+.support {
+    display: flex;
+    align-items: center;
+}
+
+.support__img{
+    width: 30px;
+    height: 30px;
+    
+
+}
+
+.support__img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.support__text{
+    margin-left: 20px;
+
+}
+
+.support__top{
+    color: #7e7e7e;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.support__bottom{
+    color: #7e7e7e;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.quick {
+    display: flex;
+    align-items: center;
+    border: 2px solid #bebebe;
+    margin-left: 70px;
+    
+}
+.quick__select select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: medium none;
+    background: transparent;
+    color: #7e7e7e;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    height: 48px;
+    padding: 0 22px 0 10px;
+    text-transform: capitalize;
+    width: 185px;
+    position: relative;
+}
+/* 
+#select:after{
+    content: '';
+    width: 5px;
+    height: 5px;
+    border: 4px solid #7e7e7e;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    display: block;
+    transform: translateY(-50%);
+    background: #000;
+} */
+
+    
+
+
+
+
+.form {
+    position: relative;
+
+}
+.form__input{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    color: #444;
+    font-weight: 500;
+    height: 48px;
+    line-height: 26px;
+    padding: 10px 65px 10px 15px;
+    width: 430px;
+    border-left: 2px solid #ddd;
+    position: relative;
+}
+.form__btn{
+    background: #26acce none repeat scroll 0 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    height: 52px;
+    line-height: 50px;
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    transition: all 0.3s ease 0s;
+    width: 55px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.form__btn:hover{
+    background: #ed7987 none repeat scroll 0 0;
+}
+
+.form__btn img {
+    width: 14px;
+    height: 14px;
+    object-fit: cover;
+}
+.cart {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.cart__link{
+    background: #26acce none repeat scroll 0 0;
+    color: #fff;
+    float: left;
+    font-size: 16px;
+    height: 52px;
+    line-height: 51px;
+    text-align: center;
+    width: 50px;
+    margin: 0 5px 0 0;
+    transition: all 0.3s ease 0s;
+
+}
+
+.cart__link:hover{
+    background: #ed7987 none repeat scroll 0 0;
+
+}
+
+.cart__link img {
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+
+.cart__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cart__top{
+    color: #929292;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.cart__value{
+    color: #929292;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cart__value span {
+    color: #e95668;
+    font-size: 15px;
+    margin-right: 0;
+    white-space: nowrap !important;
+}
+
+
+.nav {
+    background: #474747 none repeat scroll 0 0;
+    margin-bottom: 30px;
+}
+
+.nav__wrapper{
+
+}
+.nav__list{
+    list-style-type: none;
+    display: flex;
+}
+.nav__item{
+    padding: 20px 0;
+}
+.nav__link{
+    border-right: 1px solid #606060;
+    color: #fff;
+    font-size: 14px;
+    padding: 3px 15px;
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav__item:last-child a{
+    border-right: 1px solid transparent;
+}
+
+.nav__link:hover{
+    color: #26acca;
+}
+
+.hot {
+}
+.new {
+}
